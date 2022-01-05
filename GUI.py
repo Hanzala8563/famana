@@ -123,7 +123,7 @@ mappings={
 }
 
 
-assistant =GenericAssistant('C:/Users/yasemin/Desktop/AI_Asistant/intents.json',intent_methods=mappings)
+assistant =GenericAssistant('intents.json',intent_methods=mappings)
 assistant.train_model()
 
 
