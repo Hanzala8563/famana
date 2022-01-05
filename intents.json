@@ -1,0 +1,57 @@
+{"intents":[
+    {"tag":"hello",
+    "patterns": ["Hey","Hello","What's up?","How is it going?","Hi","Good day"],
+    "responses": ["Hello!","Hello, what can I do for you?","Hi there!","Good to see you!"]},
+
+    {"tag":"create_note",
+        "patterns": ["Please create a new note","New note","Create a note","I want to create a note"],
+        "responses": [""]},
+
+    {"tag":"add_todo",
+        "patterns": ["I want to add a todo","add a new todo","add a todo to my list","new item on my todo list"],
+        "responses": [""]},
+
+    {"tag":"show_todos",
+        "patterns": ["Show my todos","What are my todos","What is on my todo list"],
+        "responses": []},
+
+    {"tag":"check_notes",
+        "patterns": ["Check my notes","List my notes","Is there any notes"],
+        "responses": []},
+
+    {"tag":"tell_date",
+        "patterns": ["What day is it today","Tell me today's date","Date"],
+        "responses": []},
+    
+    {"tag":"tell_time",
+        "patterns": ["What time is it?","Tell me time","Time"],
+        "responses": []},
+
+    {"tag":"search_data",
+        "patterns": ["Search on the internet","Search","I want to search"],
+        "responses": []},
+
+    {"tag":"open_google",
+        "patterns": ["Open google","Google"],
+        "responses": []},
+    
+    {"tag":"open_youtube",
+        "patterns": ["Open youtube","Youtube"],
+        "responses": []},
+
+    {"tag":"movie_recommendation",
+        "patterns":["Movie recommendation","New movie","Movie","I want to watch movie"],
+        "responses":[]},
+    
+    {"tag":"random_movie",
+        "patterns": ["I don't have","No","Doesn't matter"],
+        "responses": []},
+    
+    {"tag":"referenced movie",
+        "patterns": ["Yes, I have","Yes"],
+        "responses": []},
+
+    {"tag":"exit",
+        "patterns": ["Bye","Stop","Quit","I want to quit","Goodbye","I want to exit","I have to go","Take care!"],
+        "responses": [""]}
+]}
