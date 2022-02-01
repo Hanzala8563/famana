@@ -52,7 +52,7 @@ LABEL_A.pack()
 
 
 ##Data
-intents_json_DIR="C:/Users/yasemin/Desktop/AI_Asistant/intents.json"
+intents_json_DIR=".../intents.json"
 intents_file=open(intents_json_DIR)
 intents_json=json.load(intents_file)
 intents_file.close()
@@ -142,7 +142,7 @@ def create_note():
     ROOT.update_idletasks
     speaker.runAndWait()
     done=False
-    NOTE_ROOT="C:/Users/yasemin/Desktop/AI_Asistant/notes"
+    NOTE_ROOT=".../notes"
 
     while not done:
         try:
@@ -278,7 +278,7 @@ mappings={
 }
 
 
-assistant =GenericAssistant('C:/Users/yasemin/Desktop/AI_Asistant/intents.json',intent_methods=mappings)
+assistant =GenericAssistant('.../intents.json',intent_methods=mappings)
 assistant.train_model()
 
 
