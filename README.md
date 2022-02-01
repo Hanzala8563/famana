@@ -26,10 +26,6 @@ If the user wants to take recommendations randomly, the basic recommender system
 #### IMDB Weighted Rating Formula
 <img src="https://github.com/tyasemin/Voice-Assistant-And-Recommender-Systems/blob/main/images/imdb_wr.PNG">
 
-<br>
-
-<img src="https://github.com/tyasemin/Voice-Assistant-And-Recommender-Systems/blob/main/images/mr14.png">
-
 Another option is user gives a movie example to the assistant and takes it as a reference for the new movie recommendation.
 <br>
 
