@@ -20,7 +20,7 @@ Some of the IMDB data used for the recommender system.
 <br>
 <img src="https://github.com/tyasemin/Voice-Assistant-And-Recommender-Systems/blob/main/images/imdb.PNG">
 
-If the user wants to take recommendations randomly, the basic recommender system function runs. The recommender system evaluates movies in the data based on IMDB weighted rating function and takes the top 30 of them.
+If the user wants to take recommendations randomly, the basic recommender system function runs. The recommender system evaluates movies in the data based on IMDB weighted rating function and takes the top 30 of them. After that tells one of them randomly.
 <br>
 
 #### IMDB Weighted Rating Formula
