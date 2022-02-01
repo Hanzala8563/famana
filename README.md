@@ -9,7 +9,7 @@ Training data file was named as "intents.json" and some of the data which is use
 <img src="https://github.com/tyasemin/Voice-Assistant-And-Recommender-Systems/blob/main/images/data1.PNG">
 
 ### Available Functions
-Except movie recommendation, smart voice assistant can tell date and time, add notes, open google and youtube, search on the internet. These functions can be replicated due to the needs.
+Except movie recommendation, smart voice assistant can tell date and time, add notes, open google and youtube, search on the internet. These functions can be increased due to the needs.
 
 <img src="https://github.com/tyasemin/Voice-Assistant-And-Recommender-Systems/blob/main/images/test1.png">
 
